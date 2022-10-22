@@ -1,6 +1,7 @@
-import requests
-import json
+import telebot
 
-r = requests.get('https://api.github.com')
+TOKEN = "1493436800:AAF1Eult9X13lyLQGGdScK63MbGOJyGqGbk"
 
-print(r.content)
+bot = telebot.TeleBot(TOKEN)
+
+bot.polling(none_stop=True)
