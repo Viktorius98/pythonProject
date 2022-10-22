@@ -1,4 +1,7 @@
 import telebot
+
+TOKEN = "1493436800:AAF1Eult9X13lyLQGGdScK63MbGOJyGqGbk"
+
 from config import token, keys
 from extensions import ExchangeException, Exchange
 
