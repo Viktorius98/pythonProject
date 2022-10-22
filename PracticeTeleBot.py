@@ -2,10 +2,10 @@ import telebot
 
 TOKEN = "1493436800:AAF1Eult9X13lyLQGGdScK63MbGOJyGqGbk"
 
+bot = telebot.TeleBot(TOKEN)
+
 from config import token, keys
 from extensions import ExchangeException, Exchange
-
-bot = telebot.TeleBot(token)
 
 
 @bot.message_handler(commands=['start'])
